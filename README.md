@@ -62,3 +62,48 @@ Then open: **http://localhost:5000**
 ## Keyboard Shortcuts
 - **Enter** in any search field → triggers search
 - All sections are accessible via the top navigation bar
+
+
+.env file
+--------------------
+# ─────────────────────────────────────────────────────────────────
+#  CyberNews v3.0 — Environment Configuration
+# ─────────────────────────────────────────────────────────────────
+#  Copy this file to .env and fill in your real key.
+#  NEVER commit .env to version control.
+#
+#  Get your Gemini API key at:
+#  https://aistudio.google.com/app/apikey
+#
+# abuse.ch Auth-Key — used for URLhaus & ThreatFox IOC feeds
+# Get yours FREE at: https://auth.abuse.ch/
+# (Sign in with GitHub / Google / LinkedIn, then generate an Auth-Key)
+#
+# AbuseIPDB API Key — used for LIVE SOC Dashboard alerts, threat level & attack>
+# Register FREE at: https://www.abuseipdb.com/register  (1000 requests/day free)
+#
+#  Optional: override the default model of Google Gemini 2.5 Flash
+# ─────────────────────────────────────────────────────────────────
+
+
+.gitignore
+-------------------------
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
