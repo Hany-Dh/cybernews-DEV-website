@@ -1,4 +1,4 @@
-# CyberNews — Threat Intelligence Platform
+# CyberNews — Threat Intelligence Platform v3.0
 ### Cybersecurity Class Exercise
 
 A full-stack cybersecurity dashboard with real data feeds and AI analysis.
