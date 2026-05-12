@@ -12,7 +12,8 @@ A full-stack cybersecurity dashboard with real data feeds and AI analysis.
   - 🛡️ NVD/NIST CVE API v2 (live vulnerabilities)
   - 🦠 abuse.ch URLhaus (live malicious URL IOCs)
   - 📰 HackerNews Algolia API (cybersecurity news)
-  - 🤖 Anthropic Claude AI (threat analysis)
+  - 🤖 Google Gemini 2.5. Flash (threat analysis)
+  - 🦠 attack.mitre.org
 
 ---
 
