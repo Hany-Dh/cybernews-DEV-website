@@ -14,7 +14,7 @@ const bootLines = [
   { cls: 'ok',   text: '✓ NVD/NIST CVE feed connected' },
   { cls: 'ok',   text: '✓ abuse.ch URLhaus IOC stream online' },
   { cls: 'ok',   text: '✓ HackerNews threat intelligence API ready' },
-  { cls: 'ok',   text: '✓ Anthropic Claude AI engine initialized' },
+  { cls: 'ok',   text: '✓ GooGle Gemini AI engine initialized' },
   { cls: 'warn', text: '⚠ 47 new CVEs detected in last 24h' },
   { cls: 'err',  text: '! CRITICAL: CVE-2024-3094 (XZ backdoor) active' },
   { cls: 'info', text: '$ Monitoring 1,847 threat indicators...' },
